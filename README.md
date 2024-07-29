@@ -4,9 +4,10 @@ Welcome to the classic Rock, Paper, Scissors game! Follow these simple steps to 
 
 ## How to Play 🕹️
 
-1. **Start the Game**: The game starts automatically when you open the script. 
-Press 'F12' to access your browser console.
-You'll be prompted to enter the number of rounds you want to play.
+1. **Start the Game**: 
+   - The game starts automatically when you open the script. 
+   - Press 'F12` to access your browser console.
+   - You'll be prompted to enter the number of rounds you want to play.
 
 2. **Make Your Choice**:
    - You will be prompted to choose between `rock`, `paper`, or `scissor`.
