@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: black;">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
+    <title>Rock-Paper-Scissor</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <h1>Reach 5 points first to WIN</h1>
+        <textarea id="commentary" rows="5" cols="50" placeholder="Make a selection and start playing!" readonly></textarea>
+        <div class="selection-container">
+            <button class="choice">Rock</button>
+            <button class="choice">Paper</button>
+            <button class="choice">Scissor</button>
+        </div>
+        <div class="score-container">
+            <h2> You: <span id="human-score">0</span></h2>
+            <h2> Bot: <span id="computer-score">0</span></h2>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
 
 </body>
 </html>
