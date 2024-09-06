@@ -1,44 +1,35 @@
-# Rock, Paper, Scissors Game Instructions 🎮
+# 🪨📄✂️ Rock-Paper-Scissor Game
 
-Welcome to the classic Rock, Paper, Scissors game! Follow these simple steps to play against the computer. May the odds be ever in your favor!
+Welcome to the **Rock-Paper-Scissor** game where you play against a bot! The first player to reach **5 points** wins the game. Test your luck and strategy against the computer in this simple, fun, and classic game! 🎮
 
-## How to Play 🕹️
+## 🎯 Objective
 
-1. **Start the Game**: 
-   - The game starts automatically when you open the script. 
-   - Press `F12` to access your browser console.
-   - You'll be prompted to enter the number of rounds you want to play.
+The goal is simple: **Reach 5 points** before the computer does! Choose between **Rock**, **Paper**, or **Scissor** and let the battle begin. 🏆
 
-2. **Make Your Choice**:
-   - You will be prompted to choose between `rock`, `paper`, or `scissor`.
-   - Type your choice and press Enter.
+### How It Works
 
-3. **Computer's Turn**:
-   - The computer randomly selects its choice among `rock`, `paper`, or `scissor`.
+1. **Select** Rock, Paper, or Scissor.
+2. The computer will randomly pick its choice.
+3. Win rounds by beating the bot’s choice:
+   - Rock beats Scissor 🪨✂️
+   - Scissor beats Paper ✂️📄
+   - Paper beats Rock 📄🪨
+4. First to **5 points** wins! 🎉
 
-4. **Round Outcome**:
-   - After both selections are made, the outcome of the round will be displayed.
-   - 🪨 **Rock** crushes ✂️ **Scissors**
-   - ✂️ **Scissors** cuts 📄 **Paper**
-   - 📄 **Paper** covers 🪨 **Rock**
+## 🛠 Features
 
-5. **Repeat**:
-   - Steps 2 to 4 will repeat for the number of rounds you chose to play.
+- **Dynamic commentary** on each round, so you'll always know what's happening.
+- **Score tracking** for both you and the computer, updated live.
+- **Reset button** to restart the game anytime.
 
-6. **Game Over**:
-   - After all rounds are played, the final scores will be displayed.
-   - 🏆 The player with the most wins is the champion!
+## 🖥️ How to Play
 
-## Scoring 📊
+Clone the repo and open the `index.html` file in your browser:
 
-- **Win**: If you win a round, you get a point.
-- **Lose**: If the computer wins a round, it gets a point.
-- **Tie**: If both you and the computer make the same choice, no points are awarded.
+```bash
+git clone https://github.com/manjunathBase2/rock-paper-scissors.git
+cd rock-paper-scissor
+open index.html
 
-## Final Scores 📋
 
-At the end of the game, the final scores will be displayed, showing how many rounds were won by you and the computer.
-
----
-
-Enjoy playing Rock, Paper, Scissors! May the best player win! 🏅
+Enjoy the game and may the best player win! 👑
