@@ -28,7 +28,7 @@ Clone the repo and open the `index.html` file in your browser:
 
 ```bash
 git clone https://github.com/manjunathBase2/rock-paper-scissors.git
-cd rock-paper-scissor
+cd rock-paper-scissors
 open index.html
 ```
 
